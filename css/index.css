@@ -1,0 +1,28 @@
+.button a{
+      background-color: #264BA2;
+      color: white;
+}
+.slider-1{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(../image/hero-1.jpg) center/cover no-repeat;
+    height: 80vh;
+}
+.slider-2{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(../image/hero-2.jpg) center/cover no-repeat;
+    height: 80vh;
+}
+.slider-3{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(../image/hero-3.jpg) center/cover no-repeat;
+    height: 80vh;
+}
+.slider-text{
+    background-color: rgba(87, 115, 236, 0.679);
+    border-radius: 5px;
+}
+.slider-text h5 span{
+    color: rgb(1, 1, 37);
+}
+@media(max-width: 600px){
+    .button{
+         text-align: center;
+    }
+}
